@@ -5,105 +5,111 @@
 <meta charset="UTF-8">
 <title>Head Hunter</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="normalize.css">
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1 hidden>Анкета Ивана Иванова</h1>
-    <header>
-        <div>
-            <a href="#" title="Логотип компании">
-            <img src="img/logo.svg" width="154" height="60" alt="Логотип компании">
-            </a>
-        </div>
-        <nav>
-                <ul>
-                    <li> <a href="#">Главная</a> </li>
-                    <li><a href="#">Новости</a></li>
-                    <li><a href="#">О нас</a></li>
-                    <li><a href="#">Наша команда</a></li>
-                </ul>
-        </nav>
-        <button type="button">Выйти</button>
-    </header>
+    <div class="wrapper">
+        <h1 hidden>Анкета Ивана Иванова</h1>
 
-    <main>
-        <section>
-            <h2 hidden>Информация об Иване Иванове</h2>
-            <div>
-                <img src="img/photo.svg" width="130" height="130" alt="Аватар Ивана Иванова">
-                <p>Иван Иванов</p>
+        <header class="header">
+            <div class="box">
+                <div class="header_wrapper">
+                    <div class="logo">
+                <a href="#" title="Логотип компании">
+                <img src="img/logo.svg" width="154" height="60" alt="Логотип компании">
+                </a>
+                    </div>
+                    <nav class="header_navigation">
+                    <ul class="header_navigation_list">
+                        <li class="header_navigation_list_item"> <a class="header_navigation_list_item_link" href="#">Главная</a> </li>
+                        <li class="header_navigation_list_item"><a class="header_navigation_list_item_link" href="#">Новости</a></li>
+                        <li class="header_navigation_list_item"><a class="header_navigation_list_item_link" href="#">О нас</a></li>
+                        <li class="header_navigation_list_item"><a class="header_navigation_list_item_link" href="#">Наша команда</a></li>
+                    </ul>
+                    </nav>
+                    <button class="logout" type="button">Выйти</button>
+                </div>
             </div>
-            <div>
-                <ul>
-                    <li>
-                        <span>Должность</span>
-                        <span>UI/UX-дизайнер</span>
-                    </li>
-                    <li>
-                        <span>Сфера</span>
-                        <span>IT</span>
-                    </li>
-                    <li>
-                        <span>Образование</span>
-                        <span>Психология</span>
-                    </li>
-                    <li>
-                        <span>Адрес</span>
-                        <span>Санкт-Петербург</span>
-                    </li>
-                    <li>
-                        <span>Возраст</span>
-                        <span>25</span>
-                    </li>
-                </ul>
-            </div>
-        </section>
+        </header>
 
-        <section>
-            <div>
-                <h2>История</h2>
-                <p>Иван — амбициозный, инициативный с неограниченным воображением и творческим стремлением.
+        <main class="main">
+            <div class="main_wrapper">
+                <section class="main_information_header">
+                <h2 hidden>Информация об Иване Иванове</h2>
+                <div class="main_information_header_avatar">
+                    <img class="main_information_header_photo" src="img/photo.svg" width="130" height="130" alt="Аватар Ивана Иванова">
+                    <p class="main_information_header_name">Иван Иванов</p>
+                </div>
+                <ul class="main_information_header_list">
+                    <li class="main_information_header_list_item">
+                        <span class="main_information_header_info_list_item_header">Должность</span>
+                        <span class="main_information_header_info_list_item_main">UI/UX-дизайнер</span>
+                    </li>
+                    <li class="main_information_header_list_item">
+                        <span class="main_information_header_info_list_item_header">Сфера</span>
+                        <span class="main_information_header_info_list_item_main"></span>IT</span>
+                    </li>
+                    <li class="main_information_header_list_item">
+                        <span class="main_information_header_info_list_item_header">Образование</span>
+                        <span class="main_information_header_info_list_item_main"></span>Психология</span>
+                    </li>
+                    <li class="main_information_header_list_item">
+                        <span class="main_information_header_info_list_item_header">Адрес</span>
+                        <span class="main_information_header_info_list_item_main"></span>Санкт-Петербург</span>
+                    </li>
+                    <li class="main_information_header_list_item">
+                        <span class="main_information_header_info_list_item_header">Возраст</span>
+                        <span class="main_information_header_info_list_item_main"></span>25</span>
+                    </li>
+                </section>
+
+                <section class="main_information_main">
+            <div class="main_information_main_left">
+                <h2 class="main_information_main_left_title">История</h2>
+                <p class="main_information_main_left_text">Иван — амбициозный, инициативный с неограниченным воображением и творческим стремлением.
                     Главный инструмент в работе Ивана - Figma. В нашей команде Иван собирает прототипы и проверяет гипотезы,
                     визуализирует сложную объемную информацию.</p>
-                <p>Обладает навыками исследования и создания цифровых продуктов, разработки рекламной и полиграфической продукции.
+                <p class="main_information_main_left_text">Обладает навыками исследования и создания цифровых продуктов, разработки рекламной и полиграфической продукции.
                     Его разносторонний опыт помогает решать множество различных задач, глубже подходить к решению вопросов, а также подходить к работе не только аналитически, но и креативно, обращая внимания на мелочи, смысл и главную идею.
                     </p>
-                <p>У Ивана высшее психологическое образование и он отлично понимает, что нужно нашим клиентам. </p>
+                <p class="main_information_main_left_text">У Ивана высшее психологическое образование и он отлично понимает, что нужно нашим клиентам. </p>
                 <div>
-                <button type="button">Написать мне</button>
-                <a href="#">Портфолио</a>
+                <button class="main_information_main_left_button" type="button">Написать мне</button>
+                <a class="main_information_main_left_link" href="#">Портфолио</a>
                 </div>
             </div>
 
-            <div>
-                <div>
-                    <h2>Стремится</h2>
-                    <ul>
-                        <li>Создавать дизайны, которые будут легко использоваться и пониматься пользователем</li>
-                        <li>Улучшать пользовательский опыт путем улучшения удобства и повышения привлекательности дизайна</li>
-                        <li>Экономить время комады разработки и тестирования</li>
+            <div class="main_information_main_right">
+                <div class="main_information_main_right_advantages">
+                    <h2 class="main_information_main_right_advantages_title">Стремится</h2>
+                    <ul class="main_information_main_right_advantages_list">
+                        <li class="main_information_main_right_advantages_list_item">Создавать дизайны, которые будут легко использоваться и пониматься пользователем</li>
+                        <li class="main_information_main_right_advantages_list_item">Улучшать пользовательский опыт путем улучшения удобства и повышения привлекательности дизайна</li>
+                        <li class="main_information_main_right_advantages_list_item">Экономить время комады разработки и тестирования</li>
                     </ul>
                 </div>
-                <div>
-                    <h2>Цели</h2>
-                    <ul>
-                        <li>Учиться и совершенствоваться для того, чтобы создавать дизайн, который будет облегчать жизнь людям</li>
-                        <li>Делать мир чуть лучше</li>
+                <div class="main_information_main_right_advantages">
+                    <h2 class="main_information_main_right_advantages_title">Цели</h2>
+                    <ul class="main_information_main_right_advantages_list">
+                        <li class="main_information_main_right_advantages_list_item">Учиться и совершенствоваться для того, чтобы создавать дизайн, который будет облегчать жизнь людям</li>
+                        <li class="main_information_main_right_advantages_list_item">Делать мир чуть лучше</li>
                     </ul>
                 </div>
-                <div>
-                    <h2>Обязанности</h2>
-                    <ul>
-                        <li>Проведение глубинных интервью с пользователями</li>
-                        <li>Проведение пользовательского тестирования прототипов</li>
-                        <li>Разработка визуального дизайна интерфейса</li>
+                <div class="main_information_main_right_advantages">
+                    <h2 class="main_information_main_right_advantages_title">Обязанности</h2>
+                    <ul class="main_information_main_right_advantages_list">
+                        <li class="main_information_main_right_advantages_list_item">Проведение глубинных интервью с пользователями</li>
+                        <li class="main_information_main_right_advantages_list_item">Проведение пользовательского тестирования прототипов</li>
+                        <li class="main_information_main_right_advantages_list_item">Разработка визуального дизайна интерфейса</li>
                     </ul>
                 </div>
 
             </div>
-        </section>
+                </section>
 
-        <section>
+                <section class="main_information_footer">
             <div>
                 <h3>Инструменты</h3>
                 <ul>
@@ -137,13 +143,17 @@
                     <li>Photoshop</li>
                 </ul>
             </div>
-        </section>
-    </main>
-
-    <footer>
-        ©2024 все права защищены
-    </footer>
-
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="box">
+            <p class="footer_copy">
+                <span>©2024</span> все права защищены
+            </p>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
