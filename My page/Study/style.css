@@ -55,6 +55,10 @@ section:last-child{
     padding: 0;
 }
 
+.header_navigation_list_item{
+    font-size: 18px;
+}
+
 .header_navigation_list_item_link{
     text-decoration: none;
     color: #F0DFDF;
@@ -68,6 +72,7 @@ section:last-child{
     border: none;
     background-color: #760808;
     margin-left: auto;
+    font-size: 18px;
 }
 /* content */
 
