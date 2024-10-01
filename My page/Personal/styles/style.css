@@ -1,8 +1,20 @@
+@import 'fonts.css';
+@import 'normalize.css';
+
+
+:root{
+    --font-size-default:         18px;
+    --font-family-default:         "Roboto", "Inter";
+}
+
 body{
     min-width: 1024px;
     width: 100%;
     height: 100%;
     background-color: rgba(34, 142, 157, 0.1);
+    font-family: "Roboto", "Inter";
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 section{
@@ -16,7 +28,6 @@ section{
 }
 
 .box{
-    width: 100%;
     max-width: 1024px;
     margin: 0 auto;
     padding: 0 24px;
@@ -30,7 +41,7 @@ section{
 .header_wrapper{
     display: flex;
     align-items: center;
-    padding: 12px 0;
+    padding: 0;
 }
 
 .header_logo{
@@ -44,9 +55,9 @@ section{
     display: flex;
     list-style: none;
     align-items: center;
-    gap: 43px;
+    gap: 40px;
     margin: 0;
-    padding: 0;
+    padding: 29px 0;
 
 }
 
@@ -82,10 +93,15 @@ section{
 .main_h2{
     text-align: center;
     font-size: 48px;
+    margin: 0;
+    padding-top: 36px;
+    padding-bottom: 38px;
 }
 .main_cards{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(309px, 1fr));
     gap: 25px;
+
 }
 
 .main_cards_card{
@@ -94,17 +110,24 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 31%;
-    margin: auto;
+    margin-bottom: 0;
 }
 
 .main_cards_card_image{
     max-width: 140px;
     max-height: 140px;
+    padding-bottom: 20px;
 }
 
 .main_cards_card_text{
     text-align: center;
+    padding: 0 16px;
+}
+
+.main_cards_card_title{
+    text-align: center;
+    padding: 24px 0;
+    font-size: 20px;
 }
 
 .main_cards_card_button{
@@ -112,15 +135,20 @@ section{
     border: none;
     background-color: #E78E24;
     font-size: 18px;
-    margin: 40px 72px;
-    padding: 12px 49px;
+    margin: 29px 24px;
     height: 47px;
     width: 261px;
+    
 }
 
+.button{
+    padding: 0;
+    margin: auto;
+}
 /* footer */
 
 .footer{
+    flex: 0 0 auto;
     background-color: #FCE3C3;
 }
 
