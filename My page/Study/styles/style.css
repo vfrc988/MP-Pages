@@ -109,7 +109,7 @@ section:last-child{
 
 
 .main_wrapper{
-    max-width: 1024px;
+    max-width: 976px;
     background-color: var(--color-white);
     margin: 0 auto;
     padding: 24px;
