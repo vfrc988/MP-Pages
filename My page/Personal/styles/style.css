@@ -119,15 +119,15 @@ section{
     padding-bottom: 20px;
 }
 
-.main_cards_card_text{
-    text-align: center;
-    padding: 0 16px;
-}
-
 .main_cards_card_title{
     text-align: center;
     padding: 24px 0;
     font-size: 20px;
+}
+
+.main_cards_card_text_main{
+    text-align: center;
+    padding: 0 16px;
 }
 
 .main_cards_card_button{
