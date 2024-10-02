@@ -137,7 +137,7 @@ main{
 .main_cards_card_text_main{
     text-align: center;
     padding: 0 16px;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .main_cards_card_button{
@@ -213,7 +213,7 @@ main{
 }
 
 .window_wrapper_image{
-    padding-left: 87px;
+    padding-left: 91.5px;
 }
 
 .window_close{
@@ -228,15 +228,18 @@ main{
 
 .window_wrapper_text{
     text-align: center;
+    font-family: Roboto;
 }
 
 .window_wrapper_title{
     padding: 0;
     margin: 0;
+    font-size: 20px;
 }
 
 .window_wrapper_text_main{
     padding: 0 16px;
+    font-size: 18px;
 }
 
 
