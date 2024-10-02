@@ -106,7 +106,9 @@ section:last-child{
     margin-left: auto;
 }
 /* content */
-
+.main{
+    flex-grow: 1;
+}
 
 .main_wrapper{
     max-width: 976px;
