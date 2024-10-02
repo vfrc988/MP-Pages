@@ -148,7 +148,11 @@ main{
     margin: 29px 24px;
     height: 47px;
     width: 261px;
-    
+    pointer-events: auto;
+}
+
+.main_cards_card_button:hover{
+    color: #000000;
 }
 
 .button{
@@ -224,6 +228,7 @@ main{
 .window_wrapper_button{
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
 
 .window_wrapper_text{
